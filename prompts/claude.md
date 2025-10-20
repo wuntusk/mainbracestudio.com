@@ -11,3 +11,11 @@ Generate a new website using html and css
     - Canvas
     - About Us
     - Contact
+
+- Business Information
+  - email 
+    - mainbracestudio@gmail.com
+  - location
+    - Arnprior, Ontario , Canada
+  - phone
+    - 613-416-5400
