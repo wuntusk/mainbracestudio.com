@@ -20,9 +20,13 @@ body {
 
 /* Header Styles */
 .header {
-    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    background: linear-gradient(rgba(30, 60, 114, 0.7), rgba(42, 82, 152, 0.7)), 
+                url('content/main.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: white;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -65,14 +69,15 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(30, 60, 114, 0.8), rgba(42, 82, 152, 0.8)), 
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23e3f2fd" width="1200" height="600"/><path fill="%232196f3" opacity="0.3" d="M0,400 Q300,200 600,400 T1200,400 V600 H0 Z"/></svg>');
+    background: linear-gradient(rgba(30, 60, 114, 0.9), rgba(42, 82, 152, 0.9)), 
+                url('content/main.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     color: white;
     padding: 8rem 0 4rem;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 .hero-content h2 {
@@ -388,6 +393,7 @@ body {
     
     .hero {
         padding: 6rem 0 3rem;
+        margin-top: 100px;
     }
     
     .section {
