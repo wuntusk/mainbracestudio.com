@@ -19,3 +19,5 @@ Generate a new website using html and css
     - Arnprior, Ontario , Canada
   - phone
     - 613-416-5400
+
+- Make a main header that uses the main.jpg image as a background
