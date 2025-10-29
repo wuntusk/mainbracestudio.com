@@ -7,8 +7,11 @@ Generate a new website using html and css
 
 - Sections
     - Sail Repair
+      - use the sewing-machine image for this section
     - Sail Covers
+      - use the red-cover image for this section
     - Canvas
+      - use the bags image for this section
     - About Us
     - Contact
 
@@ -21,3 +24,4 @@ Generate a new website using html and css
     - 613-416-5400
 
 - Make a main header that uses the main.jpg image as a background
+
