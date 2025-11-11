@@ -20,11 +20,7 @@ body {
 
 /* Header Styles */
 .header {
-    background: linear-gradient(rgba(30, 60, 114, 0.7), rgba(42, 82, 152, 0.7)), 
-                url('content/main.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
     color: white;
     padding: 1.5rem 0;
     position: fixed;
@@ -81,15 +77,16 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(30, 60, 114, 0.9), rgba(42, 82, 152, 0.9)), 
+    background: linear-gradient(rgba(30, 60, 114, 0.6), rgba(42, 82, 152, 0.6)), 
                 url('content/main.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: white;
     padding: 8rem 0 4rem;
     text-align: center;
     margin-top: 90px;
+    min-height: 500px;
 }
 
 .hero-content h2 {
